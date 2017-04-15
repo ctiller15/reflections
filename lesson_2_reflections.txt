@@ -29,3 +29,11 @@ using git diff -- stage I can directly check the components of my staging area a
 - On top of that, upon using git log, all of the prior commits in both branches are shown in chronological order.
 
 - Because it's probably the clearest way to show the branches over time. The branches both combine at one point, but you still have access to the two branches as they existed before. Within the main branch you also have all of their combined histories.
+
+"What are the pros and cons of Git's automatic merging vs. always doing merges manually?"
+
+pros: It's very quick and efficient when it comes to finding anything different and committing those individual cases.
+
+It's far faster than doing a merge manually.
+
+cons: It isn't a person with thoughts, so it's hard to handle those edge cases. It's not always possible to find an automatic and correct way to merge two branches.
