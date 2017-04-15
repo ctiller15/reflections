@@ -7,3 +7,25 @@ It initializes an empty git repository. I need to do this because it will allow 
 - The working directory is just where you currently are. It is where your files initially exist, and the git repository is where your final changes are recorded.
 
 The staging area serves as an in-between to make some final adjustments before you commit your change.
+
+"How can you use the staging area to make sure you have one commit per logical change?"
+
+using git diff -- stage I can directly check the components of my staging area against the components of the previous commit. I could use it to see what was changed, and if it fits my criteria for a "logical change".
+
+"What are some situations when branches would be helpful in keeping your history organized? How would branches help?"
+
+- It could be useful if I wanted to try out multiple versions of a project to find a solution. I could safely test multiple versions out without committing any of the projects.
+
+- It would be great if I wanted to let other people work on a version of a project on their own machine. They could work towards a solution on their own and then just commit the result.
+
+"How do the diagrams help you visualize branch structure?"
+
+- It illustrates the line of commits and any branches in understandable terms. It becomes clear that any two branches will come from one single commit, and it's clear that each branch is a secondary path that a file takes.
+
+"What is the result of merging two branches together? Why do we represent it in the diagram the way we do?"
+
+- The result of merging two branches together is a single commit with both branches.
+
+- On top of that, upon using git log, all of the prior commits in both branches are shown in chronological order.
+
+- Because it's probably the clearest way to show the branches over time. The branches both combine at one point, but you still have access to the two branches as they existed before. Within the main branch you also have all of their combined histories.
