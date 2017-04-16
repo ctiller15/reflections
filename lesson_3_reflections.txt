@@ -1,1 +1,7 @@
 "When would you want to create a remote repository rather than keeping all your work local?"
+
+-I would want to create a remote repository if I'm in a situation where I'm not working on a device that I own, so I could still have access to my files after my work is done.
+
+- I would want a remote repository in any situation that involves collaboration, so others can take and modify the document themselves.
+
+- If I'm in a situation where I'm at risk of losing data on my machine for whatever reason. Backing up your files in multiple places isn't exactly a bad move in most cases.
