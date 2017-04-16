@@ -5,3 +5,11 @@
 - I would want a remote repository in any situation that involves collaboration, so others can take and modify the document themselves.
 
 - If I'm in a situation where I'm at risk of losing data on my machine for whatever reason. Backing up your files in multiple places isn't exactly a bad move in most cases.
+
+"Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?"
+
+-An odd question. If I pull changes manually then I have more control over what files I want to work with.
+
+- If it always stays up to date with just my remote repository, then collaboration becomes a bit of a mess. We would have no real way of deciding which files automatically show up on github.
+
+- It's easier when collaborating, to branch and pick/choose the important commits.
