@@ -13,3 +13,11 @@
 - If it always stays up to date with just my remote repository, then collaboration becomes a bit of a mess. We would have no real way of deciding which files automatically show up on github.
 
 - It's easier when collaborating, to branch and pick/choose the important commits.
+
+"Describe the differences between forks, clones, and branches. When would you use one instead of another?"
+
+- A fork is essentially when you take a version of a github repository and make it into your own repository. It's almost like cloning, but exists solely on github. It's good for if you want to create your own version of the project, or work on a version of the project with your own team.
+
+- A clone is a copy of the github repository on your local machine. It's good for if you want to work on the project without pushing your changes to it, or if you're working on a project with a team and don't want to mess with the main project until something is completed.
+
+- A branch is like a section of the project, based on the original. It has the same commit history as the original master branch, but it's a way to continue forward in another direction without affecting the original document. It's very good for testing out new features.
