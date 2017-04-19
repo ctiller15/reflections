@@ -21,3 +21,7 @@
 - A clone is a copy of the github repository on your local machine. It's good for if you want to work on the project without pushing your changes to it, or if you're working on a project with a team and don't want to mess with the main project until something is completed.
 
 - A branch is like a section of the project, based on the original. It has the same commit history as the original master branch, but it's a way to continue forward in another direction without affecting the original document. It's very good for testing out new features.
+
+"What is the benefit of having a copy of the last known state of the remote stored locally?"
+
+- The biggest benefit I can think of is if you for whatever reason do not have internet access, this allows you to keep working on your file and then merge it back with your remote on github.
