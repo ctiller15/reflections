@@ -25,3 +25,11 @@
 "What is the benefit of having a copy of the last known state of the remote stored locally?"
 
 - The biggest benefit I can think of is if you for whatever reason do not have internet access, this allows you to keep working on your file and then merge it back with your remote on github.
+
+"How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?"
+
+- I would have to directly share files with everyone through email or docs or some other service.
+
+- It could be easier for everyone to work on their individual files, since you could just look at the main file and go from there. It might also be easier to find multiple solutions for the same problem.
+
+-Where it would be harder would be with actually merging items. With two people it would be difficult. With a team of 5+ it would be a logistical nightmare.
